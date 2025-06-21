@@ -1,0 +1,26 @@
+{% for tags_item in customer.tags %}
+  {% if tags_item contains "birthday_" %}
+    {% assign birthday = tags_item | split: "_" | last %}
+    {% comment %} 2006年1月21日 {% endcomment %}
+    {{ birthday  | split: "年" | first }}
+    {% comment %} 2006,1月21日 {% endcomment %}
+  {% endif %}
+{% endfor %}
+
+
+{% for tags_item in customer.tags %}{% if tags_item contains "birthday_" %}{% assign birthday = tags_item | split: "_" | last %}{{ birthday  | split: "年" | first }}{% endif %}{% endfor %}
+
+
+  {% for tags_item in customer.tags %}
+    {% if tags_item contains "birthday_" %}
+      {% assign birthday = tags_item | split: "_" | last %}
+      {% comment %} 2006年1月21日 {% endcomment %}
+      {% assign birthmonth = birthday | split: "年" | last %}
+      {% comment %} 1月21日 {% endcomment %}
+      {{ birthmonth  | split: "月" | first }}
+      {% comment %} 1,21日 {% endcomment %}
+    {% endif %}
+  {% endfor %}
+
+
+  {% for tags_item in customer.tags %}{% if tags_item contains "birthday_" %}{% assign birthday = tags_item | split: "_" | last %}{% assign birthmonth = birthday | split: "年" | last %}{{ birthmonth  | split: "月" | first }}{% endif %}{% endfor %}

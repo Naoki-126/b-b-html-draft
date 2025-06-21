@@ -1,0 +1,70 @@
+{% schema %}
+{
+  "name": "名前",
+  "tag": "section",
+  "class": "abc",
+  "settings": [
+    {
+      "type": "text",
+      "id":"title",
+      "label": "タイトル"
+    },
+    {
+      "type": "select",
+      "id": "select",
+      "label": "名前",
+      "default": "abc",
+      "options": [
+      {
+          "value":"abc",
+          "label":"選択１"
+        },
+        {
+          "value":"123",
+          "label":"選択２"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "label": "上のpadding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "label": "下のpadding",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "name_of_block",
+      "name": "ブロック名",
+      "settings": [
+        {
+          "type": "range",
+          "id": "desk_space",
+          "min": 0,
+          "max": 300,
+          "step": 10,
+          "label": "PCサイズのスペーサー",
+          "default": 50
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name":"名前"
+    }
+  ]
+}
+{% endschema %}
