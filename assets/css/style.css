@@ -20,6 +20,7 @@ body {
 }
 
 .page-inner {
+	margin: 0 auto;
 	width: 100%;
 	max-width: 1440px;
 }
@@ -199,7 +200,7 @@ body {
 .product-tag::after {
 	content: "";
 	position: absolute;
-	
+
 }
 
 /* ヘッダーエリア
@@ -542,6 +543,13 @@ body {
 
 	.product-name {
 		font-size: 14px;
+	}
+
+	.page-fv::before,
+  .page-fv::after  {
+		margin-top: 12px;
+		width: 16px;
+		height: 16px;
 	}
 
 	/* ヘッダーエリア
