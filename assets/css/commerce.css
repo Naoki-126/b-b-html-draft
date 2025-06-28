@@ -1,20 +1,16 @@
 @charset "UTF-8";
 
+/* commerce ページ
+=========================== */
 .com {
-  margin: 0 auto;
+  margin: 72px auto 0;
   width: 100%;
   max-width: 720px;
-  margin-top: 72px;
-
 }
 
 .com-title {
   font-size: 28px;
   font-weight: 700;
-}
-
-.com-contents {
-
 }
 
 .com-content {
@@ -43,6 +39,8 @@
 .com-list {
   margin-top: 8px;
   list-style: decimal inside;
+  font-size: 14px;
+  line-height: 2;
 }
 
 .com-list:first-of-type {
