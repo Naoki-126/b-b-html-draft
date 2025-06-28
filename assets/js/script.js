@@ -5,7 +5,7 @@
 jQuery("#js-drawer").on("click", function (e) {
   e.preventDefault();
   jQuery("#js-drawer").toggleClass("is-checked");
-  jQuery("#js-drawer__content").toggleClass("is-checked");
+  jQuery("#js-drawer__contents").toggleClass("is-checked");
 });
 
 /* スクロールしたらヘッダーの背景が変わる
