@@ -31,6 +31,7 @@
 
 .pro-img__thumbArea {
   margin-top: 6px;
+  max-width: 540px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +77,7 @@
 }
 
 .pro-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -238,4 +239,15 @@
 
 .pro-cat__item {
   width: 100%;
+}
+
+/* レスポンシブ対応
+=========================== */
+@media screen and (max-width: 768px) {
+  .pro-area {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+
 }

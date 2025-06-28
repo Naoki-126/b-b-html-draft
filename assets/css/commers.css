@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.com {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 720px;
+  margin-top: 72px;
+
+}
+
+.com-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.com-contents {
+
+}
+
+.com-content {
+  margin-top: 32px;
+
+}
+
+.com-subTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.com-textArea {
+  margin-top: 16px;
+}
+
+.com-text {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.com-lists {
+  margin-top: 16px;
+}
+
+.com-list {
+  margin-top: 8px;
+  list-style: decimal inside;
+}
+
+.com-list:first-of-type {
+  margin-top: 0;
+}
