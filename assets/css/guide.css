@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* guide.htmlとfaq.htmlと混合 */
+
 /* guide ページ
 =========================== */
 .guide {
@@ -14,7 +16,6 @@
 
 .guide-content {
   margin-top: 32px;
-
 }
 
 .guide-text {
@@ -134,4 +135,82 @@
 .guide-btnArea {
   margin: 76px auto 0;
   text-align: center;
+}
+
+/* faqセクション
+=========================== */
+.faq {
+  margin: 72px auto 0;
+  width: 100%;
+  max-width: 720px;
+}
+
+.faq-contents {
+  margin-top: 32px;
+}
+
+.faq-content {
+  margin-top: 72px;
+}
+
+.faq-content:first-of-type {
+  margin-top: 0;
+}
+
+.faq-accordionArea {
+  width: 100%;
+}
+
+.accordion-q {
+  background: #DCD7CF;
+  padding: 14px 24px 14px 57px;
+  font-size: 14px;
+  line-height: 2;
+  border-bottom: 1px solid #959595;
+  position: relative;
+}
+
+.accordion-q:first-of-type {
+  border-top: 1px solid #959595;
+}
+
+.accordion-q::before {
+  content: "";
+  position: absolute;
+  background: url(../img/icon-q.png)no-repeat center center /contain;
+  width: 17px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+}
+
+.accordion-q::after {
+  content: "";
+  position: absolute;
+  background: url(../img/arrow-down.png)no-repeat center center /contain;
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 16px;
+}
+
+.accordion-a {
+  background: #EDE8E2;
+  padding: 14px 24px 14px 57px;
+  font-size: 14px;
+  line-height: 2;
+  border-bottom: 1px solid #959595;
+  position: relative;
+}
+
+.accordion-a::before {
+    content: "";
+  position: absolute;
+  background: url(../img/icon-a.png)no-repeat center center /contain;
+  width: 17px;
+  height: 24px;
+  top: 25%;
+  left: 16px;
 }
