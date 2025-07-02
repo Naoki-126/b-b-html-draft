@@ -13,6 +13,7 @@
 }
 
 .about-fv__titleArea {
+
 }
 
 .about-messageArea {
@@ -114,4 +115,26 @@
 
 .about-com__btnArea {
   margin-top: 32px;
+}
+
+/* レスポンシブ対応
+=========================== */
+@media screen and (max-width: 768px) {
+  .about-message {
+    font-size: 19px;
+  }
+
+  .about-message__span {
+    font-size: 24px;
+  }
+
+  .about-com__content,
+  .about-com__content:nth-of-type(2)  {
+    flex-direction: column;
+  }
+
+  .about-com__title {
+    font-size: 18px;
+  }
+  
 }
