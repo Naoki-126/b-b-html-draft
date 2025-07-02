@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/* about ページ
+=========================== */
+.about {
+  margin: 72px auto 0;
+  width: 100%;
+}
+
+.about-fv {
+  margin-top: 44px;
+  text-align: center;
+}
+
+.about-fv__titleArea {
+}
+
+.about-messageArea {
+  margin-top: 44px;
+}
+
+.about-message {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about-message__textArea {
+  margin-top: 32px;
+}
+
+.about-message__text {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.about-commitment {
+  margin-top: 264px;
+}
+
+.about-com__titleArea {
+  text-align: center;
+}
+
+.about-message__span {
+  margin-right: 10px;
+  font-size: 32px;
+}
+
+
+.about-com__contents {
+  margin-top: 32px;
+}
+
+.about-com__content {
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.about-com__content:first-of-type {
+  margin-top: 0;
+}
+
+.about-com__content:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+
+.about-com__left {
+  width: 100%;
+  max-width: 576px;
+}
+
+.about-com__img {
+  width: 100%;
+  max-width: 576px;
+  height: auto;
+}
+
+.about-com__right {
+  width: 100%;
+  max-width: 540px;
+}
+
+.about-com__rightArea {
+
+}
+
+.about-com__ttlArea {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-com__number {
+  color: #CDC2B5;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Lato';
+}
+
+.about-com__title {
+  font-size: 20px;
+}
+
+.about-com__textArea {
+
+}
+
+.about-com__bottom {
+  margin-top: 24px;
+}
+
+.about-com__btnArea {
+  margin-top: 32px;
+}
